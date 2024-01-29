@@ -3,7 +3,7 @@
  * @param {string} t
  * @return {boolean}
  */
-//Time Complexity is O(n) and Space complexity is O(1)
+//Time Complexity is O(n), and Space complexity is O(1)
 function isIsomorphic(s, t) {
   let mapST = {};
   let mapTS = {};
