@@ -18,7 +18,7 @@ function isIsomorphic(s, t) {
     ) {
       return false;
     }
-    //if the key is not in the map, add it to the map
+    //If the key is not in the map, add it to the map
     mapST[s[i]] = t[i];
     mapTS[t[i]] = s[i];
   }
